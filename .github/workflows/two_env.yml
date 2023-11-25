@@ -6,7 +6,7 @@ on:
       - main
 
 jobs:
-  dev:
+  DEV:
     runs-on: ubuntu-latest
 
     steps:
@@ -20,7 +20,7 @@ jobs:
             -H "Authorization: Bearer eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCIsImtpZCI6IjJsSUFUUW1FM04xSXFmaHJ5dFpfWCJ9.eyJpc3MiOiJodHRwczovL2NoZWlzdGEudXMuYXV0aDAuY29tLyIsInN1YiI6IlRRell0T3RuY2FodWlENjJwdnJnbDQ5Q1RXVnlLa2FkQGNsaWVudHMiLCJhdWQiOiJodHRwczovL2NoZWlzdGEuYXBwL2FwaS9hdXRoIiwiaWF0IjoxNzAwOTQ4NzE0LCJleHAiOjE3MDEwMzUxMTQsImF6cCI6IlRRell0T3RuY2FodWlENjJwdnJnbDQ5Q1RXVnlLa2FkIiwic2NvcGUiOiJsZXZlbDpiYWNrZW5kIiwiZ3R5IjoiY2xpZW50LWNyZWRlbnRpYWxzIiwicGVybWlzc2lvbnMiOlsibGV2ZWw6YmFja2VuZCJdfQ.tOPGhF1RrdqEsNkcC-kJouaJzceN9BP-kbAAAlMdydm5bav7iOdNb4WhsrlvFNU8tFTs1fpc0cABTOS0CuXUx8E500jt_G-ziEC3YbjyYu2G19KvvASL0apIvOzALSuQuM9c71ptbQZRzWfT4wKoAtNU4bZpe-rzwQdzitUltXR_pt9m93CixhTM3MuUV5IsAuqGbh36pVKJ747qcEowNE6aKqvtm2m_7qPitxb4aemx5xlKLq0lpIZ8hMCaeoMgw6T5j5gecokdbFECWqrnVkHguqNVh8d0cQGj0Or2C0Hup3vFxoaMpaUah33evuIGyKENOlc_CjPqIioIPIa7-g"
   
 
-  prod:
+  PROD:
     runs-on: ubuntu-latest
 
     steps:
