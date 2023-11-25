@@ -8,6 +8,7 @@ on:
 jobs:
   DEV:
     runs-on: ubuntu-latest
+    environment: DEV
 
     steps:
       - name: Checkout code
@@ -20,6 +21,8 @@ jobs:
   
   PROD:
     runs-on: ubuntu-latest
+    environment: PROD
+    needs: DEV
 
     steps:
       - name: Checkout code
