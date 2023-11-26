@@ -16,8 +16,9 @@ jobs:
 
       - name: Run Dev Environment Webhook
         run: |
+          echo "Running in DEV Environment"
           curl -X GET https://jsonplaceholder.typicode.com/todos/1 \
-            -H "Content-Type: application/json" \
+            -H "Content-Type: application/json"
   
   PROD:
     runs-on: ubuntu-latest
@@ -30,6 +31,7 @@ jobs:
 
       - name: Run Prod Environment Webhook
         run: |
+          echo "Running in Prod Environment"
           curl -X GET https://jsonplaceholder.typicode.com/todos/1 \
-            -H "Content-Type: application/json" \
+            -H "Content-Type: application/json"
   
